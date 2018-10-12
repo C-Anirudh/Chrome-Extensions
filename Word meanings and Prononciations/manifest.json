@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Definition and Speech",
+    "version": "1.0",
+    "description": "Search meaning of words and hear the words !",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "background": {
+        "scripts": ["eventPage.js"],
+        "persistent": true
+    },
+    "permissions": [
+        "tabs",
+        "contextMenus",
+        "tts"
+    ]
+}
